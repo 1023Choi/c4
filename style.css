@@ -1,0 +1,58 @@
+h1 {
+    font-family: verdana;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(800px-Solid_khaki.svg.png);
+}
+
+#restart {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+#c4 {
+    background-color: gainsboro;
+    display: inline-block;
+}
+
+.col {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: slategray;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.col.empty {
+    cursor: pointer
+}
+
+.next-red {
+    background-color: #e33b3b;
+}
+
+.next-yellow {
+    background-color: #f0e851;
+}
+
+.col.red {
+    background-color: #ff0037;
+}
+
+.col.yellow {
+    background-color: #ffea00
+}
